@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="imguiWindow">
+      <UniqueIdentifier>{787D5594-E432-CE89-6D27-C860D9DBC48D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imguiWindow\OpenGL">
+      <UniqueIdentifier>{AC4FDF88-9833-A0DE-0194-9A31ED968A60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imguiWindow\imgui">
+      <UniqueIdentifier>{E2C4577A-4EDB-5510-9752-E13103A82698}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="user">
+      <UniqueIdentifier>{842E9F7C-7065-A00D-1952-861005681C0F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="user\imguiWindows">
+      <UniqueIdentifier>{19CC4C37-85E2-4ACD-CE59-D6EE3AAF1B55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="user\layers">
+      <UniqueIdentifier>{E3DCEEFE-4F92-67F4-D886-61CB443B5EF8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="user\shaders">
+      <UniqueIdentifier>{7D2F4306-6992-D2AA-1218-0B61FE599E2D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="user\shapes">
+      <UniqueIdentifier>{D7A8B40F-435E-2D05-CC52-27DC38072409}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\core.h" />
+    <ClInclude Include="src\imguiWindow\Application.h">
+      <Filter>imguiWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imguiWindow\Framebuffer.h">
+      <Filter>imguiWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imguiWindow\ImguiLayer.h">
+      <Filter>imguiWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imguiWindow\Layer.h">
+      <Filter>imguiWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imguiWindow\LayerStack.h">
+      <Filter>imguiWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imguiWindow\OpenGL\OpenGLContext.h">
+      <Filter>imguiWindow\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imguiWindow\Window.h">
+      <Filter>imguiWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imguiWindow\base.h">
+      <Filter>imguiWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imguiWindow\imgui\imgui_impl_glfw.h">
+      <Filter>imguiWindow\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imguiWindow\imgui\imgui_impl_opengl3.h">
+      <Filter>imguiWindow\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pch.h" />
+    <ClInclude Include="src\user\imguiWindows\EditorWindow.h">
+      <Filter>user\imguiWindows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\user\imguiWindows\LogWindow.h">
+      <Filter>user\imguiWindows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\user\imguiWindows\RenderWindow.h">
+      <Filter>user\imguiWindows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\user\layers\RenderLayer.h">
+      <Filter>user\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\user\shaders\Shader.h">
+      <Filter>user\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\user\shaders\ShaderLoader.h">
+      <Filter>user\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\user\shaders\UniformController.h">
+      <Filter>user\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\user\shapes\Rectangle.h">
+      <Filter>user\shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\user\shapes\Shape2d.h">
+      <Filter>user\shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dependencies\TextEditor.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="src\dependencies\stb_image.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\imguiWindow\Application.cpp">
+      <Filter>imguiWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imguiWindow\Entrypoint.cpp">
+      <Filter>imguiWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imguiWindow\Framebuffer.cpp">
+      <Filter>imguiWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imguiWindow\ImguiLayer.cpp">
+      <Filter>imguiWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imguiWindow\Layer.cpp">
+      <Filter>imguiWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imguiWindow\LayerStack.cpp">
+      <Filter>imguiWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imguiWindow\OpenGL\OpenGLContext.cpp">
+      <Filter>imguiWindow\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imguiWindow\Window.cpp">
+      <Filter>imguiWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imguiWindow\imgui\imgui_impl_glfw.cpp">
+      <Filter>imguiWindow\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imguiWindow\imgui\imgui_impl_opengl3.cpp">
+      <Filter>imguiWindow\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pch.cpp" />
+    <ClCompile Include="src\user\app.cpp">
+      <Filter>user</Filter>
+    </ClCompile>
+    <ClCompile Include="src\user\imguiWindows\EditorWindow.cpp">
+      <Filter>user\imguiWindows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\user\imguiWindows\LogWindow.cpp">
+      <Filter>user\imguiWindows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\user\imguiWindows\RenderWindow.cpp">
+      <Filter>user\imguiWindows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\user\layers\RenderLayer.cpp">
+      <Filter>user\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\user\shaders\Shader.cpp">
+      <Filter>user\shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\user\shaders\ShaderLoader.cpp">
+      <Filter>user\shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\user\shaders\UniformController.cpp">
+      <Filter>user\shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\user\shapes\Rectangle.cpp">
+      <Filter>user\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\user\shapes\Shape2d.cpp">
+      <Filter>user\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dependencies\TextEditor.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon.ico" />
+  </ItemGroup>
+</Project>
